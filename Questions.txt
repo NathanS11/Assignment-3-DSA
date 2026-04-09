@@ -1,0 +1,67 @@
+Question 1: Connect left subtree e' link to a' and a' link to the right subtree e'.
+Question 2: 
+linkSubtreeThreadOut(BinaryNode linkTo){
+    BinaryNode curr = this;
+
+    while(curr.right != null && curr.link == null)
+        curr = curr.right;
+    
+    curr.link = linkTo;
+}
+Question 3: 
+getSubtreeLeftmost(){
+    BinaryNode curr = this.right;
+
+    while(curr != null && curr.left != null)
+        curr = curr.left;
+    
+    return curr;
+}
+Question 4: curr.link is not null
+Question 5: curr = curr.link
+Question 6:
+findFirstThread(){
+    BinaryNode curr = this;
+
+    while(curr != null && curr.left != null)
+        curr = curr.left;
+    
+    return curr;
+}
+Question 7: The only change is that 0.link now points to 1
+Question 8: 3.link now points to 4 and 4.link now points to 5
+Question 9: 7.link now points to 8 and 8.link now points to 9
+Question 10: 7.link points to 7.5 and 7.5.link points to 8
+Question 11: The thread must go the the inserted thread's parent.
+Question 12: The value directly less than the new node.
+Question 13: 
+findLeftThreadToChange(){
+    BinaryNode curr = this;
+
+    while (curr.parent != null && curr.parent < curr)
+        curr = curr.parent;
+    
+    return curr;
+}
+Question 14: 1.link points to 2 and 2.link points to 3
+Question 15: 5.link points to 6 and 6.link points to 7
+Question 16: 9.link points to 10 and 10.link points to null
+Question 17: The value directly greater than the new node.
+Question 18: The thread of the parent must change.
+Question 19: Check PDF.
+Question 20: Either the node has a left child or it doesnt.
+findInOrderPred(){
+    BinaryNode curr = this;
+
+    if(this.left == null){
+        while (curr.parent != null && curr.parent.left == curr)
+            curr = curr.parent;
+        return curr.parent;
+    } else {
+        curr = curr.left;
+        while(curr != null && curr.right != null)
+            curr = curr.right;
+    }
+
+    return curr;
+} 
