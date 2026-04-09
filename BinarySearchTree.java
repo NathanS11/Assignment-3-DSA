@@ -173,7 +173,7 @@ public class BinarySearchTree<T extends Comparable<? super T>>
         {
             result = currentNode.getData(); // Get entry to be removed
             // Case 1: currentNode has two children
-            System.out.println("\nNode to remove: " + result + "\n");
+            //System.out.println("\nNode to remove: " + result + "\n");
             if (currentNode.hasLeftChild() && currentNode.hasRightChild())
             {
                 // Replace entry in currentNode with the entry in another node
