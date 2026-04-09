@@ -788,60 +788,60 @@ public class TestBST
         b2.add("l");
 
         ///////////////////// NEW
-        System.out.println("Showing values");                
-        iter = b2.getInorderIterator();
-        while(iter.hasNext())
-            System.out.print(iter.next() + " ");
-        System.out.println();
+        //System.out.println("Showing values");                
+        //iter = b2.getInorderIterator();
+        //while(iter.hasNext())
+            //System.out.print(iter.next() + " ");
+        //System.out.println();
         //////////////////////////////
         
         b2.remove("a");
         ///////////////////// NEW
-        System.out.println("Showing values");                
-        iter = b2.getInorderIterator();
-        while(iter.hasNext())
-            System.out.print(iter.next() + " ");
-        System.out.println();
+        //System.out.println("Showing values");                
+        //iter = b2.getInorderIterator();
+        //while(iter.hasNext())
+            //System.out.print(iter.next() + " ");
+        //System.out.println();
         //////////////////////////////
         b2.remove("c");
         ///////////////////// NEW
-        System.out.println("Showing values");                
-        iter = b2.getInorderIterator();
-        while(iter.hasNext())
-            System.out.print(iter.next() + " ");
-        System.out.println();
+        //System.out.println("Showing values");                
+        //iter = b2.getInorderIterator();
+        //while(iter.hasNext())
+            //System.out.print(iter.next() + " ");
+        //System.out.println();
         //////////////////////////////
         b2.remove("g");
         ///////////////////// NEW
-        System.out.println("Showing values");                
-        iter = b2.getInorderIterator();
-        while(iter.hasNext())
-            System.out.print(iter.next() + " ");
-        System.out.println();
+        //System.out.println("Showing values");                
+        //iter = b2.getInorderIterator();
+        //while(iter.hasNext())
+            //System.out.print(iter.next() + " ");
+        //System.out.println();
         //////////////////////////////
         b2.remove("k");
         ///////////////////// NEW
-        System.out.println("Showing values");                
-        iter = b2.getInorderIterator();
-        while(iter.hasNext())
-            System.out.print(iter.next() + " ");
-        System.out.println();
+        //System.out.println("Showing values");                
+        //iter = b2.getInorderIterator();
+        //while(iter.hasNext())
+            //System.out.print(iter.next() + " ");
+        //System.out.println();
         //////////////////////////////
         b2.remove("m");
         ///////////////////// NEW
-        System.out.println("Showing values");                
-        iter = b2.getInorderIterator();
-        while(iter.hasNext())
-            System.out.print(iter.next() + " ");
-        System.out.println();
+        //System.out.println("Showing values");                
+        //iter = b2.getInorderIterator();
+        //while(iter.hasNext())
+            //System.out.print(iter.next() + " ");
+        //System.out.println();
         //////////////////////////////
 
         ///////////////////// NEW
-        System.out.println("Showing values");                
-        iter = b2.getInorderIterator();
-        while(iter.hasNext())
-            System.out.print(iter.next() + " ");
-        System.out.println();
+        //System.out.println("Showing values");                
+        //iter = b2.getInorderIterator();
+        //while(iter.hasNext())
+            //System.out.print(iter.next() + " ");
+        //System.out.println();
         //////////////////////////////
         
         System.out.println("Added and removed some values");                
@@ -892,11 +892,11 @@ public class TestBST
             System.out.println("*** Failed test - got " + s + " should have been " + comp);
 
         ///////////////////// NEW
-        System.out.println("Showing values");                
-        iter = b2.getInorderIterator();
-        while(iter.hasNext())
-            System.out.print(iter.next() + " ");
-        System.out.println();
+        //System.out.println("Showing values");                
+        //iter = b2.getInorderIterator();
+        //while(iter.hasNext())
+            //System.out.print(iter.next() + " ");
+        //System.out.println();
         //////////////////////////////
             
             
